@@ -7,7 +7,7 @@ import {IndexComponent} from './index';
 import {AuthorComponent} from './author';
 import {BookComponent} from './book';
 import {UserComponent} from './user';
-
+import {CategoriesComponent} from './categories';
 		//Share Components
 import {BookPanelComponent} from './share/bookpanel';
 import {RankerComponent} from './share/bookpanel/ranker/ranker.component';
@@ -18,6 +18,7 @@ import {RankerComponent} from './share/bookpanel/ranker/ranker.component';
 			AuthorComponent,
 			BookComponent,
 			UserComponent,
+			CategoriesComponent,
 			BookPanelComponent,
 			RankerComponent
 			]
