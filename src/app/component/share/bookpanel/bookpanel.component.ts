@@ -17,25 +17,7 @@ import {Book} from '../../../concreate/book';
             </ranker>
         </div>
     `,
-    styles:[`
-        .book-panel{
-            width:80%;
-            height:380px;
-            background-color:#eeeeee;
-            margin-top:50px;
-        }
-        .book-panel img{
-            width:100%;
-            height:80%;
-            border:5px solid #eeeeee;
-          
-         }
-        .book-panel-categories{
-            margin-top:5px;
-            font-size:14px;
-            text-align:center;
-        }
-    `]
+    styleUrls:['./bookpanel.css','./bookpanel.media.css']
 })
 export class BookPanelComponent implements OnInit{
 
