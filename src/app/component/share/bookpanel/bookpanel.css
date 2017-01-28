@@ -1,14 +1,17 @@
         .book-panel{
             height:380px;
-            background-color:#eeeeee;
-            margin-top:50px;
+            border:3px solid #eeeeee;
+            margin-left:5px;
         }
         .book-panel img{
             width:100%;
-            height:80%;
-            border:5px solid #eeeeee;
-          
+            height:80%;            
+            padding:5px;
          }
+        .book-panel-bottom{
+            background-color:#eeeeee;
+            height:70px;
+        }
         .book-panel-categories{
             margin-top:5px;
             font-size:14px;

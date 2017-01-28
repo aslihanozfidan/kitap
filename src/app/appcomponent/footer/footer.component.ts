@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 @Component({
 	selector:'footerc',
 	template:`
-		<div class="row footer">
+		<div class="footer">
 			<div class="col-xs-6">
 			</div>
 			<div class="col-xs-2">
@@ -20,9 +20,11 @@ import {Component} from '@angular/core';
 			margin-top:18px;
 		}
 		.footer{
-		    margin-top:300px;
 			background-color:#468499;
-			height:85px;
+			height:85px;			
+			bottom:0px;
+			width:100%;
+			clear:both;
 		}  
 	`]
 	})

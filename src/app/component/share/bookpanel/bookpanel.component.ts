@@ -6,15 +6,17 @@ import {Book} from '../../../concreate/book';
         <div class="book-panel">
             <img [src]=book.book_img>
             <br>
-            <div class="book-panel-categories">
-                 <span *ngFor="let cat of bookCategories">
-                     {{cat}}
-                </span>
+            <div class="book-panel-bottom">
+                <div class="book-panel-categories">
+                    <span *ngFor="let cat of bookCategories">
+                        {{cat}}
+                    </span>
+                </div>
+                <br>
+                <ranker>
+                
+                </ranker>
             </div>
-            <br>
-            <ranker>
-            
-            </ranker>
         </div>
     `,
     styleUrls:['./bookpanel.css','./bookpanel.media.css']

@@ -46,7 +46,9 @@ import {Component} from '@angular/core';
 		.navbar-light .navbar-nav .nav-link {
 			color:#282828;
 			padding-left:20px;
+			font-size:13px;
 		}
+		
 		.nav-item-right{
 			color:#7f7f7f;
 			float:right;

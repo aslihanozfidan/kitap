@@ -1,5 +1,5 @@
-<div style="margin-top:140px;margin-left:20px;" class="row">
-    <div  class="col-lg-2  col-md-4 col-xs-12 " *ngFor="let lbook of lastBooks">
+<div class="row">
+    <div  class="book-container col-lg-2 offset-lg-1 col-md-4 offset-lg-1 col-xs-12 " *ngFor="let lbook of lastBooks">
         <bookpanel [book]="lbook" ></bookpanel>
     </div> 
 </div>
