@@ -1,6 +1,6 @@
 import {User} from '../../concreate/user';
 import {Comment} from '../../concreate/comment';
-export const COMMENT:Comment[] = [
+export const COMMENTS:Comment[] = [
     new Comment(1,"Beğenmedim"),
     new Comment(1,"Güzel"),
     new Comment(2,"Beğenmedim"),
