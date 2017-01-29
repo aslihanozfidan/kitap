@@ -1,6 +1,5 @@
 import {Component} from '@angular/core';
-import {User} from '../../concreate/user';
-import {Comment} from '../../concreate/comment';
+import {Comment} from '../../../concreate/comment';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 @Component({
 	selector:'bookcommenti',
