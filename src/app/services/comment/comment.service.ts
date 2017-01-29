@@ -4,8 +4,8 @@ import {Comment} from '../../concreate/comment';
 export class CommentService{
 	private comments : Comment[];
 
-	public getComments():Comment[]{
-		return this.comments;
-	}
+	getComments():Promise<Comment[]>{
+		return Promise.resolve(COMMENT);
+	}	
 
 }
