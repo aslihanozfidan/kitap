@@ -1,0 +1,38 @@
+.col-user-center{
+    width:80%;
+    height:240px;
+    margin-top:150px;
+    margin-left:auto;margin-right:auto;
+    border:5px solid #acacac;
+}
+.col-user-img{
+    float:left;
+    border:5px solid #acacac;
+    height:210px;
+    width:170px;
+    margin-top:10px;
+    margin-left:10px;
+    
+}
+.col-user-img img{
+   margin-left:20px;
+   margin-top:10px;
+   
+}
+.col-user-img h3{
+    font-size:18px;
+    color:#651010;
+    text-align: center;
+    margin-top:5px;
+}
+
+.col-user-img-bottom-line{
+    width:120px;
+    height:5px;
+    background-color:#acacac;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:10px;
+}
+
+

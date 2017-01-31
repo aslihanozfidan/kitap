@@ -7,10 +7,12 @@ import { Router, ActivatedRoute, Params } from '@angular/router';
 })
 export class UserComponent{
 	userName;
+	defaultUserImg='assets/img/default-profil-img.png';
+	bookNumber = 5;
 			constructor(
 			private route: ActivatedRoute,
 			private router: Router,
-
+	
 			) {}
 
 			ngOnInit() {
