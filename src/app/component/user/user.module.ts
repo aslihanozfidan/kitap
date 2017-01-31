@@ -7,7 +7,7 @@ import { USER_ROUTES } from './user.routes';
 		//Components
 
 import {UserComponent} from './';
-
+import {UserInfoComponent} from './info';
 import {ShareModule} from '../share/share.module';
 
 
@@ -15,7 +15,8 @@ import {ShareModule} from '../share/share.module';
 	imports:[BrowserModule, RouterModule.forChild(USER_ROUTES),ShareModule
 ],
 	declarations:[
-		UserComponent
+		UserComponent,
+		UserInfoComponent
 	]
 	,
 	exports:[ShareModule]

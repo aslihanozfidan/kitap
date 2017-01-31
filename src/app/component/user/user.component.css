@@ -37,4 +37,18 @@
 .col-content{
     float:left;
 }
-
+.row-user-menus li{
+    display:block;
+    float:left;
+    background-color:#acacac;
+    width:190px;
+    height:25px;
+    text-align:center;
+    color:white;
+    border-left:1px solid white;
+}
+.row-user-menus li:first-child{
+    background-color: white;
+    color:#acacac;
+    border:2px solid #acacac;
+}
