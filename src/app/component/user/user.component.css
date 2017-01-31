@@ -34,5 +34,7 @@
     margin-left:auto;
     margin-top:10px;
 }
-
+.col-content{
+    float:left;
+}
 
