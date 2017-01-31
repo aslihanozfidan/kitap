@@ -1,7 +1,9 @@
 import {NgModule} from '@angular/core';
-
+		//Angular modules
 import { BrowserModule} from '@angular/platform-browser';
 import { RouterModule} from '@angular/router';
+
+
 import {BookModule} from './book/book.module';
 
 		//Components
@@ -20,8 +22,7 @@ import {CategoriesComponent} from './categories';
 			AuthorComponent,
 			UserComponent,
 			CategoriesComponent,
-	
-			]
+			],
 
 	})
 export class CompModule{

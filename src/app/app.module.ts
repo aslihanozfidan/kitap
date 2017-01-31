@@ -40,7 +40,7 @@ type StoreType = {
     BrowserModule,
     FormsModule,
     HttpModule,
-
+   
     CompModule,
     ServiceModule,
     RouterModule.forRoot(ROUTES, { useHash: true, preloadingStrategy: PreloadAllModules })

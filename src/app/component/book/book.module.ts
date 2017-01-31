@@ -8,19 +8,19 @@ import { ROUTES } from './book.routes';
 
 import {BookComponent} from './';
 import {BookCommentComponent} from './bookcomment';
-import {BookPanelComponent} from '../share/bookpanel';
-import {RankerComponent} from '../share/bookpanel/ranker/ranker.component';
+
+import {ShareModule} from '../share/share.module';
+
 
 @NgModule({
-	imports:[BrowserModule,    RouterModule.forChild(ROUTES)
+	imports:[BrowserModule, RouterModule.forChild(ROUTES),ShareModule
 ],
 	declarations:[
-			BookPanelComponent,
-			RankerComponent,
 			BookComponent,
 			BookCommentComponent
-			],
-			exports:[BookPanelComponent,RankerComponent]
+	]
+	,
+	exports:[ShareModule]
 
 	})
 export class BookModule{
