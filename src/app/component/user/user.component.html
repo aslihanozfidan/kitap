@@ -1,22 +1,24 @@
-<div class="col-user-center">
-    <div class="col-user-img">
-       <img [src]="defaultUserImg">
-       <div class="col-user-img-bottom-line">      
-       </div>
-       <h3>{{bookNumber}} KİTAP</h3>
+<div class="user-container">
+    <div class="col-user-center">
+        <div class="col-user-img">
+        <img [src]="defaultUserImg">
+        <div class="col-user-img-bottom-line">      
+        </div>
+        <h3>{{bookNumber}} KİTAP</h3>
+        </div>
+        <div class="col-content">
+            <div class="row-user-menus">
+                <ul>
+                    <li>Bilgilerim</li>
+                    <li>Kitaplarım</li>
+                    <li>Yorumlarım</li>
+                    <li>Kullanıcı Ayarları</li>
+                </ul>  
+            </div>
+            <div class="row-user-content">
+                    <router-outlet></router-outlet>
+            </div>    
+        </div>
     </div>
-    <div class="col-content">
-          <div class="row-user-menus">
-              <ul>
-                <li>Bilgilerim</li>
-                <li>Kitaplarım</li>
-                <li>Yorumlarım</li>
-                <li>Kullanıcı Ayarları</li>
-              </ul>  
-          </div>
-          <div class="row-user-content">
-                <router-outlet></router-outlet>
-          </div>    
-    </div>
+    <h1>Burasi userin icererisi{{userName}}</h1>
 </div>
-<h1>Burasi userin icererisi{{userName}}</h1>
