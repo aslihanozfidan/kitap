@@ -61,3 +61,4 @@ compiled/
 # IDE #
 .idea/
 *.swp
+/sayfa_tasarimlari/**
