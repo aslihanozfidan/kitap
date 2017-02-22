@@ -8,7 +8,7 @@ import { ROUTES } from './book.routes';
 
 import {BookComponent} from './';
 import {BookCommentComponent} from './bookcomment';
-
+import {BookInformationComponent} from './bookinformation';
 import {ShareModule} from '../share/share.module';
 
 
@@ -17,7 +17,8 @@ import {ShareModule} from '../share/share.module';
 ],
 	declarations:[
 			BookComponent,
-			BookCommentComponent
+			BookCommentComponent,
+			BookInformationComponent
 	]
 	,
 	exports:[ShareModule]
