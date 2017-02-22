@@ -1,5 +1,7 @@
-<div class="comment-container col-md-10 offset-md-1">
-    <div  class="comment col-md-4">
-        adadada
+<div class="comment-container">
+    <div class="comment" *ngFor="let comment of yorum; let index = index" >
+       {{yorum[index].user}} -  {{yorum[index].comment_time}}
+       <div class="comment-line"></div>
+       {{yorum[index].comment}}      
     </div> 
 </div>

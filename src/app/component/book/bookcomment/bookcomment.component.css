@@ -1,0 +1,21 @@
+.comment-container{
+    width:100%;
+    height: auto;
+    color:#767676;
+    margin-top: 80px;
+}
+
+.comment{
+    margin-bottom:20px;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.comment-line{
+    width:65%;
+    height: 3px;
+    margin-left: 33.5%;
+    margin-bottom: 10px;
+    background-color:#468499;
+}
