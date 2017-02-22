@@ -1,6 +1,13 @@
 .bookinformation-container{
     width:100%;
     height: auto;
+    color:#767676;
+    
+}
+
+.bookname,.authors-container{
+    color:#468499;
+    font-weight: bold;
 }
 
 .authors-container{
@@ -9,3 +16,25 @@
     display: inline;
 }
 
+.about-book{
+    width:100%;
+    margin-top:20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.about-book-line{
+    width:65%;
+    height: 3px;
+    margin-left: 33.5%;
+    background-color:#468499;
+}
+
+.bookinformation{
+    width:100%;
+    margin-top:20px;
+    font-size: 0.9rem; 
+}
+
+
+    

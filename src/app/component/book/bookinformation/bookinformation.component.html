@@ -1,6 +1,9 @@
 <div class="bookinformation-container">
-    <div>{{kitap._book_information}}</div>  
-        <div *ngFor="let author of kitap._authors; let index = index" class="authors-container">
-            {{kitap._authors[index].author_name}}
-        </div>       
+    <div class="bookname">{{kitap._book_name}}</div>  
+    <div *ngFor="let author of kitap._authors; let index = index" class="authors-container">
+        {{kitap._authors[index].author_name}}
+    </div>  
+    <div class="about-book">Kitap Hakkında</div>  
+    <div class="about-book-line"></div> 
+    <div class="bookinformation">{{kitap._book_information}}</div>   
 </div>

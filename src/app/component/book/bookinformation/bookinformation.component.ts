@@ -13,11 +13,13 @@ export class BookInformationComponent{
 			constructor(
 			private route: ActivatedRoute,
 			private router: Router,
-
+			
 			) {}
 
 			ngOnInit() {
+					
 					 this.route.params.subscribe(key=>this.book = key["book"]);
 					 this.kitap.authors=[new Author(1,'Yaşar Kemal'),new Author(1,'Yaşar Kemal'),new Author(1,'Yaşar Kemal'),new Author(1,'Yaşar Kemal'),new Author(1,'Yaşar Kemal'),new Author(6,'Mahmut Kemal')];
-					 this.kitap.book_information='Kitap Bilgisi'		}
+					this.kitap.book_information='Kitap Bilgisi'; 	
+					}
 }
