@@ -3,9 +3,9 @@
         <bookpanel [book]="kitap" ></bookpanel>
     </div> 
     <ul id="book-menu">
-        <li><a href="#">Bilgiler</a></li>
+        <li><a routerLink="/kitap/{{bookName}}/bilgiler">Bilgiler</a></li>
         <li><a href="#">Beğeniler</a></li>
-        <li><a href="#">Yorumlar</a></li>
+        <li><a routerLink="/kitap/{{bookName}}/yorumlar">Yorumlar</a></li>
     </ul>
     <div>
             <router-outlet></router-outlet>

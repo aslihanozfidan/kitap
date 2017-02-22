@@ -5,7 +5,7 @@ import {BookInformationComponent} from './bookinformation'
 import {BookComponent} from './';
 export const ROUTES: Routes = [
     { path: 'kitap/:bookName', component: BookComponent, children:[
-         { path: 'yorum',component:BookCommentComponent},
+         { path: 'yorumlar',component:BookCommentComponent},
          {path: 'bilgiler', component:BookInformationComponent}
     ] },
   
