@@ -11,6 +11,7 @@ import {IndexComponent} from './index';
 import {AuthorComponent} from './author';
 
 import {CategoriesComponent} from './categories';
+import {BookLikeComponent} from './book/booklike';
 
 @NgModule({
 	imports:[BrowserModule,BookModule,UserModule
