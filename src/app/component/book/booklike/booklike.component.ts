@@ -8,8 +8,7 @@ import { Router, ActivatedRoute, Params } from '@angular/router';
 	styleUrls: ['./booklike.component.css']
 })
 export class BookLikeComponent {
-	user;
-    kullanici = new User(1,"Aslıhan");
+	user;       
 	constructor(
 		private route: ActivatedRoute,
 		private router: Router,
@@ -18,5 +17,6 @@ export class BookLikeComponent {
 
 	ngOnInit() {
 		this.route.params.subscribe(key => this.user = key["user"]);
+        this.user = [new User(1,"Aslıhan"),new User(2,"Burak")];
 	}
 }

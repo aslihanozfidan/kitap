@@ -1,1 +1,1 @@
-export * from ' ./booklike.component';
+export * from './booklike.component';
