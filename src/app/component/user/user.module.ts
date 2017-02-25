@@ -8,6 +8,9 @@ import { USER_ROUTES } from './user.routes';
 
 import {UserComponent} from './';
 import {UserInfoComponent} from './info';
+import {UserCommentComponent} from './comment';
+import {UserBookComponent} from './book';
+import {UserSettingsComponent} from './settings';
 import {ShareModule} from '../share/share.module';
 
 
@@ -16,7 +19,10 @@ import {ShareModule} from '../share/share.module';
 ],
 	declarations:[
 		UserComponent,
-		UserInfoComponent
+		UserInfoComponent,
+		UserCommentComponent,
+		UserBookComponent,		
+		UserSettingsComponent
 	]
 	,
 	exports:[ShareModule]
