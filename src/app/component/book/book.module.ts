@@ -10,6 +10,7 @@ import {BookComponent} from './';
 import {BookCommentComponent} from './bookcomment';
 import {BookInformationComponent} from './bookinformation';
 import {ShareModule} from '../share/share.module';
+import {BookLikeComponent} from '../book/booklike';
 
 
 @NgModule({
