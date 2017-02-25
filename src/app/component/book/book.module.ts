@@ -19,7 +19,8 @@ import {BookLikeComponent} from '../book/booklike';
 	declarations:[
 			BookComponent,
 			BookCommentComponent,
-			BookInformationComponent
+			BookInformationComponent,
+			BookLikeComponent
 	]
 	,
 	exports:[ShareModule]
